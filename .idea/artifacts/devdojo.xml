@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="devdojo">
+    <output-path>$PROJECT_DIR$/out/artifacts/devdojo.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="devdojo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="devdojo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.14" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
